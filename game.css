@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    display: grid;
+    place-items: center;
+    overflow-x: hidden;
+    
+}
+h1{
+    margin: 5px;
+}
+
+ul{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.divv{
+    display: flex;
+    
+}
+
+li{
+    list-style: none;
+    display:grid;
+    place-items:center;
+    font-size:20px;
+}
+.box{
+    margin: 1px;
+    width: 75px;
+    height: 75px;
+    text-align: center;
+    font-size: 18px;
+    border: 1px black solid;
+    background-color:bisque;
+    font-size: 0px;
+}
+#tog{
+        margin: 0px;
+        padding: 0px;
+        font-size: 15px;
+}
+
+
+.WlSemiRicochets{
+             position: absolute;
+              margin:0px;
+              padding:0px;
+              height: 60px;
+              width: 5px;
+              border-left: 0px;
+              background-color: brown;   
+              transform:skew(45deg);  
+              cursor: pointer;  
+}
+.WlRicochets{
+          position:absolute;
+          margin:0px;
+          padding:0px;
+          height:65px;
+          width: 65px;
+          background:linear-gradient(to bottom right,brown 0%,brown 50% ,bisque 50%,bisque 100%);
+          cursor: pointer;
+}
+
+.WrSemiRicochets{
+    position: absolute;
+    margin:0px;
+    padding:0px;
+    height: 60px;
+    width: 5px;
+    border-left: 0px;
+    background-color: brown;   
+    transform:skew(135deg);
+    cursor: pointer;
+}
+
+.WrRicochets{
+    position:absolute;
+          margin:0px;
+          padding:0px;
+          height:65px;
+          width: 65px;
+          background:linear-gradient(to top right,bisque 0%,bisque 50% ,brown 50%,brown 100%);
+          cursor: pointer;
+}
+
+.BlRicochets{
+    position:absolute;
+    margin:0px;
+    padding:0px;
+    height:65px;
+    width: 65px;
+    background:linear-gradient(to top right, black 0%,black 50%,bisque 50%,bisque 100%);
+    cursor: pointer;
+}
+
+.BlSemiRicochets{
+    position: absolute;
+    margin:0px;
+    padding:0px;
+    height: 60px;
+    width: 5px;
+    border-left: 0px;
+    background-color: black;   
+    transform:skew(135deg);
+    cursor: pointer;
+}
+
+.BrSemiRicochets{
+    position: absolute;
+    margin:0px;
+    padding:0px;
+    height: 60px;
+    width: 5px;
+    border-left: 0px;
+    background-color: black;   
+    transform:skew(45deg);
+    cursor: pointer;
+}
+
+.BrRicochets{
+    position:absolute;
+    margin:0px;
+    padding:0px;
+    height:65px;
+    width: 65px;
+    background:linear-gradient(to top left,black 0%,black 50% ,bisque 50%,bisque 100%);
+    cursor: pointer;
+}
+
+.container{
+    position:absolute;top:300px;left:20px;
+    width: 300px;
+    height: 200px;
+    display: flex;
+    background-color: beige;
+}
+
+.display{
+    position:absolute;
+    width:300px;
+    height:150px;
+    background-color: aqua;
+    display: flex;
+    text-align: center;
+    vertical-align: middle;
+   font-size: 80px;
+   align-items: center;
+   justify-content: space-around;
+}
+
+
+#start{
+ position: absolute;top: 175px;left:0px;
+ background-color:plum;
+ height: 45px;
+ width: 91px;
+ border-radius: 10px;
+ cursor: pointer;
+
+}
+#pause{
+    position: absolute;top: 175px;left:100px;
+    background-color:plum;
+    height: 45px;
+ width: 91px;
+ border-radius: 10px;
+ cursor: pointer;
+}
+#reset{
+    position: absolute;top: 175px;left:200px;
+    background-color:plum;
+    height: 45px;
+ width: 91px;
+ border-radius: 10px;
+ cursor: pointer;
+}
+
+
+
+
+
+
+  
